@@ -1,0 +1,19 @@
+วันที่ 
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+var today  = new Date();
+
+console.log(today.toLocaleDateString("en-US")); // 9/17/2016
+console.log(today.toLocaleDateString("en-US", options)); // Saturday, September 17, 2016
+
+
+uploadfile
+	    var image_file = { 
+		        dwid : fields.dwid,
+		        filename : files.file.name,
+		        filetype : fields.istype,
+		        serverfilename : baseName(files.file.path),
+		        serverfilepath : files.file.path,
+		        expirytime : imgdatetimenow + (3600000 * expiryTime)           
+	    };
+	    files_array.push(image_file);
+		ios.sockets.emit('new message image', data);
